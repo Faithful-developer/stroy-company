@@ -1,0 +1,43 @@
+.construction-info{
+  .img-construction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    img{
+      margin: 10px 0;
+    }
+  }
+  .info-construction{
+    margin: 50px 0;
+    h1{
+      font-size: 35px;
+      color: #212B31;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.7;
+      color: #72787D;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .construction-info{
+    .img-construction{
+      img{
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .construction-info{
+    .img-construction{
+      img{
+        width: 200px;
+      }
+    }
+  }
+}

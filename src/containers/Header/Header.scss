@@ -1,0 +1,110 @@
+.header {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+
+  .container {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  &-center {
+    &-linkers {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+
+      li {
+        a {
+          font-size: 16px;
+          color: #72787D;
+          display: inline-block;
+          padding: 5px 10px;
+          transition: all ease 0.5s;
+
+          &:hover {
+            color: #036FC7;
+          }
+        }
+      }
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    a {
+      display: inline-block;
+      padding: 9px 20px;
+      background: #212B31;
+      border: 1px solid #212B31;
+      box-sizing: border-box;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+      border-radius: 4px;
+      color: white;
+      transition: all ease 0.5s;
+
+      &:hover {
+        background: #ffffff;
+        color: #212B31;
+      }
+
+      &:active {
+        background: #212B31;
+        color: #FFC22D;
+        opacity: 0.7;
+      }
+    }
+    .language-button{
+      margin-right: 20px;
+      font-size: 16px;
+      display: flex;
+      padding: 9px 20px;
+      background: #212B31;
+      border: 1px solid #212B31;
+      box-sizing: border-box;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+      border-radius: 4px;
+      color: white;
+      align-items: center;
+      transition: all ease 0.5s;
+      img{
+        width: 30px;
+        margin-right: 10px;
+      }
+      &:hover {
+        background: #ffffff;
+        color: #212B31;
+      }
+
+      &:active {
+        background: #212B31;
+        color: #FFC22D;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .header {
+    .container {
+      .header-center, .header-right {
+        display: none;
+      }
+      .burger-button{
+        display: inline-block;
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../fonts/Inter/stylesheet.scss";
+@import "../fonts/Balo0_Bhai/stylesheet.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Baloo Bhai 2', sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+@media screen and(max-width: 768px) {
+  .container{
+    max-width: 720px;
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .container{
+    max-width: 540px;
+  }
+}

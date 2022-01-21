@@ -1,0 +1,112 @@
+.footer {
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .box {
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #212B31;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          a {
+            font-size: 16px;
+            line-height: 2;
+            color: #72787D;
+
+          }
+        }
+      }
+
+      .phone-number {
+        a {
+          padding-left: 25px;
+          position: relative;
+
+          &::before {
+            content: "";
+            background: url('../../assets/images/icons/phone.svg') no-repeat;
+            width: 19px;
+            height: 19px;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+
+      .social-network {
+        .instagram {
+          padding-left: 25px;
+          position: relative;
+
+          &::before {
+            content: "";
+            background: url('../../assets/images/icons/instagram.svg') no-repeat;
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+
+        .telegram {
+          padding-left: 25px;
+          position: relative;
+
+          &::before {
+            content: "";
+            background: url('../../assets/images/icons/telegram.svg') no-repeat;
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+
+        .facebook {
+          padding-left: 25px;
+          position: relative;
+
+          &::before {
+            content: "";
+            background: url('../../assets/images/icons/facebook.svg') no-repeat;
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .footer {
+    .container {
+      .pages {
+        display: none;
+      }
+
+      .logo-box {
+        display: none
+      }
+    }
+  }
+}

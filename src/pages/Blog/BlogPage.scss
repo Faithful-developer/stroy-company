@@ -1,0 +1,22 @@
+.slick-next, .slick-prev{
+  display: none !important;
+}
+
+.construction-cards{
+  padding: 50px 0;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+
+@media screen and(max-width: 576px){
+  .construction-cards{
+    .container{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}

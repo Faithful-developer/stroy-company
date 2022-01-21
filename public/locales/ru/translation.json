@@ -1,0 +1,74 @@
+{
+  "header": {
+    "home": "Asosiy sahifa.",
+    "about": "Biz haqimizda.",
+    "blog": "Blog.",
+    "call": "Qo'ng'iroq qilish"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Qiyin qurilish maydonchalari uchun aqlli material yetkazib berish"
+    },
+    "cardSection": {
+      "0" : {
+        "title" : "Samaradorlikni oshirish",
+        "subtitle": "Samarali loyihalar arzonroq va o'z vaqtida yakunlanadi."
+      },
+      "1" : {
+        "title" : "Samaradorlikni oshirish",
+        "subtitle": "Samarali loyihalar arzonroq va o'z vaqtida yakunlanadi."
+      },
+      "2" : {
+        "title" : ":Samaradorlikni oshirish",
+        "subtitle": "Samarali loyihalar arzonroq va o'z vaqtida yakunlanadi."
+      }
+    }
+  },
+  "footer": {
+    "pages": "Sahifalar",
+    "home": "Asosiy sahifa",
+    "about": "Biz haqimizda",
+    "blog": "Blog",
+    "phoneNumbers": "Telefon raqamlari",
+    "socialNetworks": "Ijtimoiy tarmoqlarda"
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "rus: Lorem Ipsum dolar sit amet",
+      "subtitle": "rus: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt impedit, dignissimos corporis quidem sequi repudiandae incidunt tempora quasi explicabo dolores unde saepe veritatis temporibus quae a, commodi eos quia facilis."
+    },
+    "lines": {
+      "0": {
+        "title": "rus:Отслеживайте доставку по всей цепочке поставок",
+        "subtitle": "rus:От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте."
+      },
+      "1": {
+        "title": "rus:Отслеживайте доставку по всей цепочке поставок",
+        "subtitle": "rus:От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте."
+      },
+      "2": {
+        "title": "rus:Отслеживайте доставку по всей цепочке поставок",
+        "subtitle": "rus:От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте."
+      }
+    }
+  },
+  "blogPage": {
+    "constructionCard": {
+      "0": {
+        "title": "Construction Name 1",
+        "overview": "rus: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt impedit, dignissimos corporis quidem sequi repudiandae incidunt tempora quasi explicabo dolores unde saepe veritatis temporibus quae a, commodi eos quia facilis.",
+        "fullyInfo": "rus: Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, alias aut commodi cum cupiditate delectus et eveniet fugit ipsam, odio omnis quaerat quas rerum suscipit tenetur veniam voluptas voluptatem voluptatibus. Animi autem consequuntur cum deserunt earum fugiat incidunt ipsam molestiae non odit perspiciatis quas recusandae rem, sit tempore ut voluptates! A adipisci aliquid assumenda consequatur corporis deserunt dolore, dolorem ducimus eius enim est facilis id nulla officiis quasi quo repellat sit temporibus! Ad excepturi hic laborum mollitia neque quod repudiandae saepe! Ad alias consequatur debitis dolores, doloribus eligendi, explicabo impedit iusto maxime minus non nulla possimus quam quidem, sequi velit."
+      },
+      "1": {
+        "title": "Construction Name 1",
+        "overview": "rus: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt impedit, dignissimos corporis quidem sequi repudiandae incidunt tempora quasi explicabo dolores unde saepe veritatis temporibus quae a, commodi eos quia facilis.",
+        "fullyInfo": "rus: Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, alias aut commodi cum cupiditate delectus et eveniet fugit ipsam, odio omnis quaerat quas rerum suscipit tenetur veniam voluptas voluptatem voluptatibus. Animi autem consequuntur cum deserunt earum fugiat incidunt ipsam molestiae non odit perspiciatis quas recusandae rem, sit tempore ut voluptates! A adipisci aliquid assumenda consequatur corporis deserunt dolore, dolorem ducimus eius enim est facilis id nulla officiis quasi quo repellat sit temporibus! Ad excepturi hic laborum mollitia neque quod repudiandae saepe! Ad alias consequatur debitis dolores, doloribus eligendi, explicabo impedit iusto maxime minus non nulla possimus quam quidem, sequi velit."
+      },
+      "2": {
+        "title": "Construction Name 1",
+        "overview": "rus: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt impedit, dignissimos corporis quidem sequi repudiandae incidunt tempora quasi explicabo dolores unde saepe veritatis temporibus quae a, commodi eos quia facilis.",
+        "fullyInfo": "rus: Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, alias aut commodi cum cupiditate delectus et eveniet fugit ipsam, odio omnis quaerat quas rerum suscipit tenetur veniam voluptas voluptatem voluptatibus. Animi autem consequuntur cum deserunt earum fugiat incidunt ipsam molestiae non odit perspiciatis quas recusandae rem, sit tempore ut voluptates! A adipisci aliquid assumenda consequatur corporis deserunt dolore, dolorem ducimus eius enim est facilis id nulla officiis quasi quo repellat sit temporibus! Ad excepturi hic laborum mollitia neque quod repudiandae saepe! Ad alias consequatur debitis dolores, doloribus eligendi, explicabo impedit iusto maxime minus non nulla possimus quam quidem, sequi velit."
+      }
+    }
+  }
+}
