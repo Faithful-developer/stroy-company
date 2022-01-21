@@ -7,7 +7,7 @@ import Loader from "./components/Loader";
 
 ReactDOM.render(
   <BrowserRouter>
-      <Suspense fallback={Loader}>
+      <Suspense fallback={<Loader/>}>
           <App />
       </Suspense>
   </BrowserRouter>,

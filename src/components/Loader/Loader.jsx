@@ -2,7 +2,11 @@ import './Loader.scss'
 
 const Loader = () =>{
     return(
-        <h1>loading...</h1>
+        <>
+            <div className="container-loader">
+                <div className="loader"/>
+            </div>
+        </>
     )
 }
 

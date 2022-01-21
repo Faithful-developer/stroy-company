@@ -2,7 +2,13 @@ import './ErrorPage.scss'
 
 const ErrorPage = () =>{
     return(
-        <h1>Error Page</h1>
+       <>
+           <div className="error-wrapper">
+               <div className="container">
+                   <h1>Page was not found</h1>
+               </div>
+           </div>
+       </>
     )
 }
 
