@@ -8,6 +8,7 @@ import BlogCard from "../../components/BlogCard";
 import Footer from "../../containers/Footer";
 import cardImg from "../../assets/images/card-image.png";
 import {useTranslation} from "react-i18next";
+import {Helmet} from "react-helmet";
 
 const BlogPage = () => {
 
@@ -62,6 +63,11 @@ const BlogPage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>
+                    Blog Page
+                </title>
+            </Helmet>
             <div className='blog-carousel'>
                 <Slider {...settings}>
                     {

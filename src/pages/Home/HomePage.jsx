@@ -9,6 +9,7 @@ import Footer from "../../containers/Footer";
 import {useTranslation} from "react-i18next";
 import {useEffect} from "react";
 import AOS from "aos";
+import {Helmet} from "react-helmet";
 
 const HomePage = () => {
     useEffect(() => {
@@ -38,6 +39,11 @@ const HomePage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>
+                    Home Page
+                </title>
+            </Helmet>
             <section className="intro">
                <div className="container">
                    <h1>{t('homePage.hero.title')}</h1>
