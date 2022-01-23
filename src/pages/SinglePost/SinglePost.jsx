@@ -17,7 +17,6 @@ const SinglePost = () => {
     }
 
     const constructionInfo = [
-
         {
             id: 1,
             title: t("blogPage.constructionCard.0.title"),
